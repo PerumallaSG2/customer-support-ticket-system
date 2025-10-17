@@ -1,6 +1,6 @@
  Customer Support Ticket System
 
-This repository contains a full-stack web application** designed to manage customer support tickets efficiently.  
+This repository contains a full-stack web application designed to manage customer support tickets efficiently.  
 It allows users to create, update, view, and delete support tickets through a modern Angular UI connected to a Spring Boot REST API with MySQL database integration.
 
 ---
