@@ -96,7 +96,7 @@ Frontend will start at: `http://localhost:4200`
 
 ---
 
- Testing the APIs
+Testing the APIs
 You can use Postman or curl to test the backend endpoints.
 
 Example:
