@@ -54,9 +54,8 @@ customer-support-ticket-system/
 │   └── schema.sql                   # SQL schema for tickets table
 │
 └── README.md
-
-
 🧩 Prerequisites
+
 Java 17+
 
 Maven 3.8+
@@ -69,39 +68,38 @@ Git
 
 ⚙️ Setup Instructions
 1️⃣ Clone the Repository
-bash
-Copy code
 git clone https://github.com/PerumallaSG2/customer-support-ticket-system.git
 cd customer-support-ticket-system
+
 2️⃣ Configure the Database
+
 Edit backend/src/main/resources/application.properties with your MySQL credentials:
 
-properties
-Copy code
 spring.datasource.url=jdbc:mysql://localhost:3306/ticketdb
 spring.datasource.username=root
 spring.datasource.password=your_password
 spring.jpa.hibernate.ddl-auto=update
 spring.jpa.show-sql=true
+
+
 Create the database:
 
-sql
-Copy code
 CREATE DATABASE ticketdb;
+
 3️⃣ Run the Backend
-bash
-Copy code
 cd backend
 mvn clean install
 mvn spring-boot:run
+
+
 Backend runs on: http://localhost:8080
 
 4️⃣ Run the Frontend
-bash
-Copy code
 cd frontend
 npm install
 ng serve --open
+
+
 Frontend runs on: http://localhost:4200
 
 🗄️ API Endpoints
@@ -111,7 +109,6 @@ GET	/api/tickets/{id}	Fetch ticket by ID
 POST	/api/tickets	Create a new ticket
 PUT	/api/tickets/{id}	Update a ticket
 DELETE	/api/tickets/{id}	Delete a ticket
-
 🧠 Database Schema
 Column	Type	Description
 id	BIGINT (PK)	Unique Ticket ID
@@ -120,8 +117,8 @@ description	TEXT	Issue details
 priority	VARCHAR(20)	LOW / MEDIUM / HIGH
 status	VARCHAR(20)	OPEN / IN_PROGRESS / CLOSED
 created_at	TIMESTAMP	Created timestamp
-
 🔧 Future Enhancements
+
 JWT Authentication & Role-based Access
 
 Email notifications for ticket updates
@@ -131,7 +128,9 @@ Docker Compose setup for local deployment
 Advanced search and filters
 
 👨‍💻 Author
+
 Gopi Krishna Perumalla
 Java Full Stack Developer
 📧 gopi.perumalla18@gmail.com
+
 🔗 LinkedIn
