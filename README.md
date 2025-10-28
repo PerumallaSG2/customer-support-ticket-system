@@ -68,7 +68,7 @@ Node.js v16+ and Angular CLI
 MySQL Server
 
 Git
-
+---
 
 ## ⚙️ Setup Instructions
 1️⃣ Clone the Repository
@@ -106,7 +106,7 @@ ng serve --open
 
 Frontend runs on: http://localhost:4200
 
-
+---
 ## 🗄️ API Endpoints
 Method	Endpoint	Description
 GET	/api/tickets	Fetch all tickets
@@ -115,7 +115,7 @@ POST	/api/tickets	Create a new ticket
 PUT	/api/tickets/{id}	Update a ticket
 DELETE	/api/tickets/{id}	Delete a ticket
 
-
+---
 ## 🧠 Database Schema
 Column	Type	Description
 id	BIGINT (PK)	Unique Ticket ID
@@ -134,7 +134,7 @@ Docker Compose setup for local deployment
 
 Advanced search and filters
 
-
+---
 ## 👨‍💻 Author
 
 Gopi Krishna Perumalla
