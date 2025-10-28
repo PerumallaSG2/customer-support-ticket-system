@@ -136,8 +136,7 @@ Advanced search and filters
 
 ---
 ## 👨‍💻 Author
-
-Gopi Krishna Perumalla
-Java Full Stack Developer
-📧 gopi.perumalla18@gmail.com
-🔗 LinkedIn
+**Gopi Krishna Perumalla**  
+Java Full Stack Developer  
+📧 gopi.perumalla18@gmail.com  
+🔗 [LinkedIn](https://www.linkedin.com/in/gopikrishnaperumalla)  
