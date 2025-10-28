@@ -59,9 +59,8 @@ customer-support-ticket-system/
 
 ##  🧩 Prerequisites
 
-•	Java 17+
-
-•	Maven 3.8+
+- •	Java 17+
+- •	Maven 3.8+
 
 •	Node.js v16+ and Angular CLI
 
