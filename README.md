@@ -57,7 +57,7 @@ customer-support-ticket-system/
 ```
 ---
 
-🧩 Prerequisites
+##  🧩 Prerequisites
 
 Java 17+
 
@@ -68,6 +68,7 @@ Node.js v16+ and Angular CLI
 MySQL Server
 
 Git
+
 
 ## ⚙️ Setup Instructions
 1️⃣ Clone the Repository
@@ -105,6 +106,7 @@ ng serve --open
 
 Frontend runs on: http://localhost:4200
 
+
 ## 🗄️ API Endpoints
 Method	Endpoint	Description
 GET	/api/tickets	Fetch all tickets
@@ -112,6 +114,8 @@ GET	/api/tickets/{id}	Fetch ticket by ID
 POST	/api/tickets	Create a new ticket
 PUT	/api/tickets/{id}	Update a ticket
 DELETE	/api/tickets/{id}	Delete a ticket
+
+
 ## 🧠 Database Schema
 Column	Type	Description
 id	BIGINT (PK)	Unique Ticket ID
@@ -129,6 +133,7 @@ Email notifications for ticket updates
 Docker Compose setup for local deployment
 
 Advanced search and filters
+
 
 ## 👨‍💻 Author
 
