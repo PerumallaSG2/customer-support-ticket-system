@@ -1,4 +1,4 @@
-# 🎟️ Customer Support Ticket System
+## 🎟️ Customer Support Ticket System
 
 This repository contains a **full-stack web application** for managing customer support tickets.  
 It allows users to create, update, view, and delete tickets via an **Angular frontend** connected to a **Spring Boot REST API** with **MySQL** persistence.  
@@ -54,10 +54,10 @@ customer-support-ticket-system/
 │   └── schema.sql                   # SQL schema for tickets table
 │
 └── README.md
-
+```
 ---
 
-## 🧩 Prerequisites
+🧩 Prerequisites
 
 Java 17+
 
