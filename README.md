@@ -59,15 +59,13 @@ customer-support-ticket-system/
 
 ##  🧩 Prerequisites
 
-Java 17+
+•	Java 17+
+•	Maven 3.8+
+•	Node.js v16+ and Angular CLI
+•	MySQL Server
+•	Git
 
-Maven 3.8+
 
-Node.js v16+ and Angular CLI
-
-MySQL Server
-
-Git
 ---
 
 ## ⚙️ Setup Instructions
@@ -135,13 +133,11 @@ Frontend runs on: http://localhost:4200
 
 ## 🔧 Future Enhancements
 
-JWT Authentication & Role-based Access
+•	JWT Authentication & Role-based Access
+•	Email notifications for ticket updates
+•	Docker Compose setup for local deployment
+•	Advanced search and filters
 
-Email notifications for ticket updates
-
-Docker Compose setup for local deployment
-
-Advanced search and filters
 
 ---
 ## 👨‍💻 Author
