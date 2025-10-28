@@ -54,6 +54,8 @@ customer-support-ticket-system/
 │   └── schema.sql                   # SQL schema for tickets table
 │
 └── README.md
+
+
 🧩 Prerequisites
 Java 17+
 
