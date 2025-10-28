@@ -21,7 +21,7 @@ Git
 Setup Instructions
 
 Clone the Repository
-git clone https://github.com/your-username/customer-support-ticket-system.git
+git clone https://github.com/PerumallaSG2/customer-support-ticket-system.git
 cd customer-support-ticket-system
 Configure the Database Edit the backend configuration file backend/src/main/resources/application.properties to match your MySQL setup:
 spring.datasource.url=jdbc:mysql://localhost:3306/ticketdb
