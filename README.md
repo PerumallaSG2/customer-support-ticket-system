@@ -57,7 +57,7 @@ customer-support-ticket-system/
 
 ---
 
-🧩 Prerequisites
+## 🧩 Prerequisites
 
 Java 17+
 
@@ -69,7 +69,7 @@ MySQL Server
 
 Git
 
-⚙️ Setup Instructions
+## ⚙️ Setup Instructions
 1️⃣ Clone the Repository
 git clone https://github.com/PerumallaSG2/customer-support-ticket-system.git
 cd customer-support-ticket-system
@@ -105,14 +105,14 @@ ng serve --open
 
 Frontend runs on: http://localhost:4200
 
-🗄️ API Endpoints
+## 🗄️ API Endpoints
 Method	Endpoint	Description
 GET	/api/tickets	Fetch all tickets
 GET	/api/tickets/{id}	Fetch ticket by ID
 POST	/api/tickets	Create a new ticket
 PUT	/api/tickets/{id}	Update a ticket
 DELETE	/api/tickets/{id}	Delete a ticket
-🧠 Database Schema
+## 🧠 Database Schema
 Column	Type	Description
 id	BIGINT (PK)	Unique Ticket ID
 title	VARCHAR(100)	Short issue title
@@ -130,7 +130,7 @@ Docker Compose setup for local deployment
 
 Advanced search and filters
 
-👨‍💻 Author
+## 👨‍💻 Author
 
 Gopi Krishna Perumalla
 Java Full Stack Developer
