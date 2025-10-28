@@ -78,6 +78,9 @@ Fork this repository
 Create a new branch: git checkout -b feature-name
 Commit your changes: git commit -m "Add feature-name"
 Push and open a pull request.
-Author Gopi Krishna Perumalla Java Full Stack Developer
+
+Author 
+Gopi Krishna Perumalla 
+Java Full Stack Developer
 📧 gopi.perumalla18@gmail.com
 🔗 LinkedIn
