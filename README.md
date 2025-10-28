@@ -111,23 +111,29 @@ Frontend runs on: http://localhost:4200
 
 ---
 ## 🗄️ API Endpoints
-Method	Endpoint	Description
-GET	/api/tickets	Fetch all tickets
-GET	/api/tickets/{id}	Fetch ticket by ID
-POST	/api/tickets	Create a new ticket
-PUT	/api/tickets/{id}	Update a ticket
-DELETE	/api/tickets/{id}	Delete a ticket
+| Method | Endpoint            | Description         |
+| ------ | ------------------- | ------------------- |
+| GET    | `/api/tickets`      | Fetch all tickets   |
+| GET    | `/api/tickets/{id}` | Fetch ticket by ID  |
+| POST   | `/api/tickets`      | Create a new ticket |
+| PUT    | `/api/tickets/{id}` | Update a ticket     |
+| DELETE | `/api/tickets/{id}` | Delete a ticket     |
+
 
 ---
 ## 🧠 Database Schema
-Column	Type	Description
-id	BIGINT (PK)	Unique Ticket ID
-title	VARCHAR(100)	Short issue title
-description	TEXT	Issue details
-priority	VARCHAR(20)	LOW / MEDIUM / HIGH
-status	VARCHAR(20)	OPEN / IN_PROGRESS / CLOSED
-created_at	TIMESTAMP	Created timestamp
-🔧 Future Enhancements
+| Column      | Type         | Description                 |
+| ----------- | ------------ | --------------------------- |
+| id          | BIGINT (PK)  | Unique Ticket ID            |
+| title       | VARCHAR(100) | Short issue title           |
+| description | TEXT         | Issue details               |
+| priority    | VARCHAR(20)  | LOW / MEDIUM / HIGH         |
+| status      | VARCHAR(20)  | OPEN / IN_PROGRESS / CLOSED |
+| created_at  | TIMESTAMP    | Created timestamp           |
+
+---
+
+## 🔧 Future Enhancements
 
 JWT Authentication & Role-based Access
 
