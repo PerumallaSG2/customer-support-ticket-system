@@ -1,0 +1,8 @@
+CREATE TABLE ticket (
+  id BIGINT AUTO_INCREMENT PRIMARY KEY,
+  title VARCHAR(100),
+  description TEXT,
+  priority VARCHAR(20),
+  status VARCHAR(20),
+  created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
